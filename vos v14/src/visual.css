@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+/* is */
+
+:is(a){
+    text-decoration: none;
+    color: aliceblue;
+}
+
 /* main */
 
 body{
@@ -42,6 +49,34 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.top__left{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.os__item{
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    height: 100%;
+    width: 100%;
+    transition: .5s;
+}
+
+.os__item:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.control__item{
+    width: 16px;
 }
 
 /* apps */
@@ -95,3 +130,4 @@ body{
 .row__stop{
     border-right: 1px solid silver;
 }
+

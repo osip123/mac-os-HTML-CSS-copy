@@ -1,0 +1,66 @@
+.finder{
+    width: 250px;
+    height: 400px;
+    background-color: transparent;
+    backdrop-filter: blur(200px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+    display: none;
+}
+
+.head{
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav{
+        width: 50px;
+        height: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 5px;
+
+        button{
+            border-radius: 50%;
+            width: 20px;
+            height: 15px;
+        }
+        button:hover{
+            opacity: .7;
+        }
+    }
+
+    .g{
+        background-color: green;
+    }
+    .y{
+        background-color: yellow;
+    }
+    .r{
+        background-color: red;
+    }
+
+}
+
+
+.finder_body{
+    padding: 10px;
+    width: 190px;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    #ico_find{
+        margin: 0;
+        padding: 0;
+        width: 40px;
+    }
+}

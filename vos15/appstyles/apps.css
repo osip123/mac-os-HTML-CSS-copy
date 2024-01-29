@@ -1,0 +1,61 @@
+.finder {
+  width: 250px;
+  height: 400px;
+  background-color: transparent;
+  -webkit-backdrop-filter: blur(200px);
+          backdrop-filter: blur(200px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1rem;
+  display: none;
+}
+
+.head {
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head .nav {
+  width: 50px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+}
+.head .nav button {
+  border-radius: 50%;
+  width: 20px;
+  height: 15px;
+}
+.head .nav button:hover {
+  opacity: 0.7;
+}
+.head .g {
+  background-color: green;
+}
+.head .y {
+  background-color: yellow;
+}
+.head .r {
+  background-color: red;
+}
+
+.finder_body {
+  padding: 10px;
+  width: 190px;
+  height: 280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.finder_body #ico_find {
+  margin: 0;
+  padding: 0;
+  width: 40px;
+}/*# sourceMappingURL=apps.css.map */
